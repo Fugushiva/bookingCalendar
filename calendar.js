@@ -115,8 +115,9 @@ function generateDays(month, year) {
 
         carreContainer.appendChild(montherBox);
         dayDiv.appendChild(dayRect);
-        dayDiv.appendChild(carreContainer);
+
         dayContainer.appendChild(dayDiv);
+        dayContainer.appendChild(carreContainer);
         daysContainer.appendChild(dayContainer);
     }
 }
